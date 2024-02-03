@@ -1,0 +1,58 @@
+.task-container {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.task-container:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.02);
+}
+.checkbox {
+    margin-right: 10px;
+  }
+
+.task-text {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+    font-weight: bold;
+}
+
+.button-17 {
+    align-items: center;
+    appearance: none;
+    background-color: yellow; 
+    border-radius: 24px;
+    border: 1px solid #2980b9; 
+    color: #898181;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px; 
+    padding: 0 20px; 
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button-17:hover {
+    background-color: #2980b9; /* Change the button color on hover */
+}
+
+.button-17:active {
+    transform: translateY(1px); /* Add a slight vertical shift on active state */
+}
+
+.button-17:focus {
+    outline: none;
+    border: 2px solid #2070a0; /* Add a border on focus for accessibility */
+}
+.completed {
+    text-decoration: line-through;
+  }
